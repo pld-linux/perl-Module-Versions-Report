@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without  tests           # do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Module
@@ -25,16 +25,16 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 I often get email from someone reporting a bug in a module I've written.
 I email back, asking what version of the module it is, what version of
 Perl on what OS, and sometimes what version of some relevant third library
-(like XML::Parser).  They reply, saying "Perl 5".  I say "I need the exact
-version, as reported by `perl -v`".  They tell me.  And I say "I, uh,
+(like XML::Parser). They reply, saying "Perl 5". I say "I need the exact
+version, as reported by `perl -v`". They tell me. And I say "I, uh,
 also asked about the version of my module and XML::Parser [or whatever]".
-They say "Oh yeah.  It's 2.27".  "Is that my module or XML::Parser?"
-"XML::Parser."  "OK, and what about my module's version?"  "Ohyeah.
-That's 3.11."  By this time, days have passed, and what should have been
+They say "Oh yeah. It's 2.27". "Is that my module or XML::Parser?"
+"XML::Parser." "OK, and what about my module's version?" "Ohyeah.
+That's 3.11." By this time, days have passed, and what should have been
 a simple operation - reporting the version of Perl and relevant modules,
 has been needlessly complicated.
 
-This module is for simplifying that task.  If you add "use
+This module is for simplifying that task. If you add "use
 Module::Versions::Report;" to a program (especially handy if your program
 is one that demonstrates a bug in some module), then when the program
 has finished running, you well get a report detailing the all modules
