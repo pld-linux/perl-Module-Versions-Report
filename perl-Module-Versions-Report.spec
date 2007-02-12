@@ -6,7 +6,7 @@
 %define		pdir	Module
 %define		pnam	Versions-Report
 Summary:	Module::Versions::Report - report versions of all modules in memory
-Summary(pl):	Module::Versions::Report - raportowanie wersji wszystkich modu³ów w pamiêci
+Summary(pl.UTF-8):   Module::Versions::Report - raportowanie wersji wszystkich moduÅ‚Ã³w w pamiÄ™ci
 Name:		perl-Module-Versions-Report
 Version:	1.02
 Release:	1
@@ -41,21 +41,21 @@ has finished running, you well get a report detailing the all modules
 in memory, and noting the version of each (for modules that defined a
 $VERSION, at least).
 
-%description -l pl
-Autor czêsto dostaje raporty b³êdów w napisanych przez niego modu³ów.
-Odpisuj±c pyta siê o wersjê modu³u, wersjê Perla, system operacyjny i
-czasem wersje powi±zanych bibliotek (np. XML::Parser). W odpowiedzi
-czêsto dostaje "Perl 5", podczas gdy potrzebuje dok³adnej wersji,
-takiej jak wypisywana przez `perl -v`". I podobnie dla innych modu³ów.
-Ca³± ta konwersacja mo¿e trwaæ wiele dni, a powinna byæ prost±
-operacj± - raportowaniem wersji Perla i powi±zanych modu³ów.
+%description -l pl.UTF-8
+Autor czÄ™sto dostaje raporty bÅ‚Ä™dÃ³w w napisanych przez niego moduÅ‚Ã³w.
+OdpisujÄ…c pyta siÄ™ o wersjÄ™ moduÅ‚u, wersjÄ™ Perla, system operacyjny i
+czasem wersje powiÄ…zanych bibliotek (np. XML::Parser). W odpowiedzi
+czÄ™sto dostaje "Perl 5", podczas gdy potrzebuje dokÅ‚adnej wersji,
+takiej jak wypisywana przez `perl -v`". I podobnie dla innych moduÅ‚Ã³w.
+CaÅ‚Ä… ta konwersacja moÅ¼e trwaÄ‡ wiele dni, a powinna byÄ‡ prostÄ…
+operacjÄ… - raportowaniem wersji Perla i powiÄ…zanych moduÅ‚Ã³w.
 
-Ten modu³ s³u¿y do uproszczenia tego zadania. Po dodaniu "use
-Module::Versions::Report" do programu (co jest szczególnie porêczne,
-je¶li program s³u¿y do demonstrowania b³êdu w module), program po
-uruchomieniu wypisuje raport ze szczegó³ami na temat wszystkich
-modu³ów obecnych w pamiêci, podaj±c ich wersje (przynajmniej dla
-modu³ów definiuj±cych $VERSION).
+Ten moduÅ‚ sÅ‚uÅ¼y do uproszczenia tego zadania. Po dodaniu "use
+Module::Versions::Report" do programu (co jest szczegÃ³lnie porÄ™czne,
+jeÅ›li program sÅ‚uÅ¼y do demonstrowania bÅ‚Ä™du w module), program po
+uruchomieniu wypisuje raport ze szczegÃ³Å‚ami na temat wszystkich
+moduÅ‚Ã³w obecnych w pamiÄ™ci, podajÄ…c ich wersje (przynajmniej dla
+moduÅ‚Ã³w definiujÄ…cych $VERSION).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
