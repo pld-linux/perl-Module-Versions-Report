@@ -6,7 +6,7 @@
 %define		pdir	Module
 %define		pnam	Versions-Report
 Summary:	Module::Versions::Report - report versions of all modules in memory
-Summary(pl.UTF-8):   Module::Versions::Report - raportowanie wersji wszystkich modułów w pamięci
+Summary(pl.UTF-8):	Module::Versions::Report - raportowanie wersji wszystkich modułów w pamięci
 Name:		perl-Module-Versions-Report
 Version:	1.02
 Release:	1
