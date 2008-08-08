@@ -8,13 +8,13 @@
 Summary:	Module::Versions::Report - report versions of all modules in memory
 Summary(pl.UTF-8):	Module::Versions::Report - raportowanie wersji wszystkich modułów w pamięci
 Name:		perl-Module-Versions-Report
-Version:	1.03
+Version:	1.05
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Module/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	938c059863e3125fa268bb0a09bac26c
+# Source0-md5:	1dba2684e91a46feab21bc9518366d22
 URL:		http://search.cpan.org/dist/Module-Versions-Report/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
